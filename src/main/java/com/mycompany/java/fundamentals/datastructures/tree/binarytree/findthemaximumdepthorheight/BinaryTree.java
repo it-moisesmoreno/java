@@ -1,4 +1,4 @@
-package com.mycompany.java.fundamentals.datastructures.tree.binarytree.findthemaximumdepthorheightofgivenbinarytree;
+package com.mycompany.java.fundamentals.datastructures.tree.binarytree.findthemaximumdepthorheight;
 
 // Java program to find height of tree
 // A binary tree node

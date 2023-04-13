@@ -1,4 +1,4 @@
-package com.mycompany.java.fundamentals.datastructures.tree.binarytree.findthemaximumdepthorheightofgivenbinarytree;
+package com.mycompany.java.fundamentals.datastructures.tree.binarytree.findthemaximumdepthorheight;
 
 // Java program for above approach
 import java.util.LinkedList;
