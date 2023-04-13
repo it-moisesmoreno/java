@@ -1,4 +1,4 @@
-package com.mycompany.java.fundamentals.stack;
+package com.mycompany.java.fundamentals.datastructures.stack;
 
 // Java Code for Linked List Implementation
 public class StackAsLinkedList {

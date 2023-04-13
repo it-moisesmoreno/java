@@ -1,4 +1,4 @@
-package com.mycompany.java.fundamentals.stack;
+package com.mycompany.java.fundamentals.datastructures.stack;
 
 /* Java program to implement basic stack
 operations */
