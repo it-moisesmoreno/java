@@ -3,6 +3,8 @@ package com.mycompany.java.fundamentals.datastructures.arrays.codingproblems.lev
 /**
  * Java code to find the minimum and maximum elements in an array.
  *
+ * Input: N = 6 A[] = {3, 2, 1, 56, 10000, 167} Output: min = 1, max = 10000
+ *
  * @author Moisés Moreno <Moisés.Moreno at linkedin.com/in/it-moisesmoreno>
  */
 public class MinMaxArray {
