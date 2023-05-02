@@ -1,4 +1,4 @@
-package com.mycompany.java.fundamentals.datastructures.graph.codingproblems.level1.problem1;
+package com.mycompany.java.fundamentals.datastructures.graph.codingproblems.level1;
 
 /*
 	Given the adjacency list and number of vertices and edges of a graph, 
@@ -9,7 +9,7 @@ package com.mycompany.java.fundamentals.datastructures.graph.codingproblems.leve
 // Java program for the above approach
 import java.util.*;
 
-class GFG {
+class Problem1 {
 
     // Function to add edges
     static void addEdge(Vector<Integer> adj[], int u, int v) {

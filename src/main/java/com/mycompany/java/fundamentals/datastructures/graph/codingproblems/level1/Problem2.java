@@ -1,4 +1,4 @@
-package com.mycompany.java.fundamentals.datastructures.graph.codingproblems.level1.problem2;
+package com.mycompany.java.fundamentals.datastructures.graph.codingproblems.level1;
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -14,7 +14,7 @@ import java.util.LinkedList;
  *
  * @author Moisés Moreno <Moisés.Moreno at linkedin.com/in/it-moisesmoreno>
  */
-public class Graph {
+public class Problem2 {
 
     // No. of vertices
     private int V;
@@ -23,7 +23,7 @@ public class Graph {
     private LinkedList<Integer> adj[];
 
     // Constructor
-    Graph(int v) {
+    Problem2(int v) {
         V = v;
         adj = new LinkedList[v];
         for (int i = 0; i < v; i++) {
@@ -73,7 +73,7 @@ public class Graph {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Graph g = new Graph(4);
+        Problem2 g = new Problem2(4);
         g.addEdge(0, 1);
         g.addEdge(0, 2);
         g.addEdge(1, 2);
