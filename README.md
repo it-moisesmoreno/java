@@ -236,6 +236,6 @@ This repository is primarily for my personal learning, but if you'd like to cont
 
 ## License 📜 <a name="license"></a>
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/it-moisesmoreno/html?tab=MIT-1-ov-file) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/it-moisesmoreno/java/tree/main?tab=MIT-1-ov-file) file for more details.
 
 Feel free to further customize it as needed!
