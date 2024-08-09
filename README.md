@@ -30,7 +30,7 @@ Welcome to my Java self-study repository! This repository documents my journey o
 - Fundamentals
     - Basic Syntax
     - Conditionals
-    - Datastructures
+    - Data Structures
     - Datatypes and variables
     - Exception handling
     - Loops
@@ -52,38 +52,171 @@ The repository is organized into folders, each representing a different topic or
 ```bash
 
 src/main/java/com/mycompany/java/
-advanced/
 │  
-├── 00-introduction-and-basics/
-│   ├── 00-home/
-│       ├── example_00.html
-│   ├── 01-introduction/
-│       ├── example_00.html  
-│   ├── 02-editors/  
-│   ├── 03-basic/  
-│       ├── example_00.html  
-│       ├── example_01.html  
-│       ├── example_02.html  
-│       ├── example_03.html  
-│       ├── example_04.html  
-│   ├── 04-elements/  
-│       ├── example_00.html  
-│       ├── example_01.html  
-│       ├── example_02.html  
-│   ├── 05-attributes/  
-│       ├── example_00.html  
-│       ├── example_01.html  
-│       ├── example_02.html  
-│       ├── example_03.html  
-│       ├── example_04.html  
-│       ├── example_05.html  
-│       ├── example_06.html  
-│       ├── example_07.html  
-│   ├── 06-comments/  
-│       ├── example_00.html  
-│       ├── example_01.html  
-│       ├── example_02.html  
-├── 01-formatting-and-style/
+├── advanced/
+│   ├── basics-of-threads/
+│       ├── MyThread.java
+│       ├── MyThread1.java
+│       ├── ThreadPriority.java
+│       ├── ThreadState.java
+│   ├── collection-framework/
+│       ├── custom-data-structure/
+│           ├── Main.java
+│       ├── list-interface
+│           ├── arraylist/
+│               ├── TestJavaCollection1.java
+│           ├── TestJavaCollection1.java
+│       ├── set-interface
+│           ├── TestJavaCollection1.java
+│       ├── CustomIterator.java
+│       ├── Main.java
+│   ├── generics/  
+│       ├── Test.java
+│   ├── jvm/
+│       ├── ClassLoaderExample.java
+│       ├── Test.java
+│       ├── TestGarbage1.java
+│   ├── networking-and-sockets/
+│       ├── Client.java
+│       ├── Server.java
+│   ├── serialization/
+│       ├── Test.java
+│   ├── streams/
+│       ├── Demo.java
+│       ├── JavaStreamExample.java
+├── fundamentals/
+│   ├── conditionals/
+│       ├── Demo001.java
+│       ├── Demo002.java
+│       ├── NestedSwitch.java
+│   ├── data-structures/
+│       ├── arrays/
+│           ├── coding-problems/
+│               ├── level1/
+│                   ├── Problem7.java
+│                   ├── Problem8.java
+│                   ├── Problem9.java
+│                   ├── Problem10.java
+│                   ├── ReverseArray.java
+│                   ├── Sort012.java
+│                   ├── SortArray.java
+│                   ├── SortArrayWithoutArraysSort.java
+│                   ├── SubarrayWithGivenSum.java
+│           ├── ArrayExample.java
+│           ├── Demo001.java
+│       ├── graph/
+│           ├── coding-problems/
+│               ├── level1/
+│                   ├── Problem1.java
+│                   ├── Problem2.java
+│                   ├── Problem3.java
+│       ├── linked-list/
+│           ├── coding-problems/
+│               ├── flatten-linked-list/
+│                   ├── FlattenLinkedList.java
+│               ├── middle-of-linked-list/
+│                   ├── MiddleOfLinkedList.java
+│               ├── problem1/
+│                   ├── Problem1.java
+│               ├── problem2/
+│                   ├── Problem2.java
+│               ├── problem3/
+│                   ├── LinkedList.java
+│               ├── problem4/
+│                   ├── Problem4.java
+│               ├── problem5/
+│                   ├── Problem5.java
+│           ├── merge-sort/
+│           ├── DLL.java
+│           ├── LinkedList.java
+│           ├── SinglyLinkedList.java
+│       ├── queue/
+│           ├── coding-problems/
+│               ├── problem1/
+│                   ├── GfG.java
+│           ├── Queue.java
+│           ├── QueueAsLinkedList.java
+│       ├── stack/
+│           ├── Stack.java
+│           ├── StackAsLinkedList.java
+│       ├── tree/
+│           ├── binary-search-tree/
+│               ├── BinarySearchTree.java
+│           ├── binary-tree/
+│               ├── deletion/
+│                   ├── GFG.java
+│                   ├── GFG2.java
+│               ├── find-the-maximum-depth-or-height/
+│                   ├── BinaryTree.java
+│                   ├── GFG.java
+│               ├── insertion/
+│                   ├── GFG.java
+│               ├── level-order-tree-traversal/
+│                   ├── BinaryTree.java
+│                   ├── BinaryTree1.java
+│               ├── BinaryTree1.java
+│               ├── BinaryTree2.java
+│               ├── BinaryTree3.java
+│               ├── Main.java
+│               ├── coding-problems
+│                   ├── level1
+│                       ├── problem1/
+│                           ├── BinaryTree.java
+│                       ├── problem2/
+│                           ├── BinaryTree.java
+│                           ├── BinaryTree1.java
+│                       ├── problem3/
+│                           ├── BinaryTree.java
+│                       ├── problem4/
+│                           ├── BinaryTree.java
+│                       ├── problem5/
+│                           ├── BinaryTree.java
+│           ├── Tree.java
+│   ├── data-types-and-variables/
+│       ├── Demo001.java
+│       ├── Demo002.java
+│   ├── exception-handling/
+│       ├── Demo001.java
+│       ├── Demo002.java
+│       ├── Demo003.java
+│       ├── SampleException.java
+│   ├── loops/
+│       ├── ForEachExample.java
+│       ├── ForEachExample1.java
+│       ├── ForExample.java
+│       ├── ForExample1.java
+│       ├── LabeledForExample.java
+│       ├── LabeledForExample2.java
+│       ├── NestedForExample.java
+│       ├── PyramidExample.java
+│       ├── PyramidExample2.java
+│       ├── WhileExample1.java
+│       ├── WhileExample2.java
+│   ├── oop/
+│       ├── abstraction/
+│           ├── Main.java
+│       ├── inheritance/
+│           ├── Main.java
+│           ├── Main3.java
+│       ├── interfaces/
+│           ├── gfg.java
+│           ├── TestClass.java
+│           ├── TestClass2.java
+│       ├── polymorphism/
+│           ├── Honda3.java
+│       ├── Calculation.java
+│       ├── Test.java
+│       ├── TestClass.java
+│       ├── TestClass3.java
+│       ├── TestClass4.java
+│   ├── package-examples/
+│       ├── my-pack/
+│           ├── B.java
+│       ├── my-pack/
+│           ├── A.java
+│       ├── Simple.java
+│       ├── StaticImportDemo.java
+│   ├── BasicSyntax.java
 
 ```
 
@@ -92,13 +225,13 @@ advanced/
 
 1. Clone the repository to your local machine using:
    ```bash
-   git clone https://github.com/it-moisesmoreno/html.git
+   git clone https://github.com/it-moisesmoreno/java.git
 2. Navigate to the topic folder you are interested in.
-3. Open the HTML files in your preferred web browser or code editor to explore the examples and code.
+3. Open the Java files in your preferred code editor to explore the examples and code.
 
 ## Resources 📚 <a name="resources"></a>
 
-[W3Schools HTML Tutorial](https://www.w3schools.com/html/default.asp)
+[GeeksForGeeks](https://www.geeksforgeeks.org/)
 
 ## Contributing 🤝 <a name="contributing"></a>
 
