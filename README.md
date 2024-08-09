@@ -1,6 +1,3 @@
-# Java
-
-
 # Java Self-Study Repository 📚💻
 
 Welcome to my Java self-study repository! This repository documents my journey of learning and practicing Java, covering various beginner to advanced topics and exercises.
